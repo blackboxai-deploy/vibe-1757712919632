@@ -1,0 +1,44 @@
+{
+  "enabled": false,
+  "apiKey": "your-openai-api-key-here",
+  "model": "gpt-4o",
+  "maxTokens": 150,
+  "timeout": 5000,
+  "temperature": 0.7,
+  "features": {
+    "questHelp": true,
+    "buildAdvice": true,
+    "navigation": true,
+    "socialAssistance": true,
+    "itemGuide": true,
+    "combatTips": true,
+    "economyAdvice": true,
+    "troubleshooting": true
+  },
+  "personality": {
+    "type": "helpful",
+    "tone": "friendly",
+    "expertise": "expert"
+  },
+  "privacy": {
+    "sharePlayerData": false,
+    "anonymizeData": true,
+    "storeConversations": false
+  },
+  "performance": {
+    "maxConcurrentRequests": 5,
+    "cacheSize": 100,
+    "costLimit": 10.0
+  },
+  "languages": {
+    "primary": "en",
+    "supported": ["en", "de", "fr", "es", "ja", "ko"]
+  },
+  "responses": {
+    "greeting": "Hello! I'm your Madrigal AI Assistant. How can I help you with your adventure?",
+    "questHelp": "I can help you with quest guidance, hints, and strategies!",
+    "buildAdvice": "Need advice on your character build? I can recommend optimal skill distributions!",
+    "navigation": "Lost? I can help you find NPCs, locations, and the best routes!",
+    "fallback": "I'm here to help! Ask me about quests, builds, navigation, or any game-related questions."
+  }
+}
